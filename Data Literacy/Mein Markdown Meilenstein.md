@@ -28,7 +28,7 @@ Glücklicherweise weiß ich dank der digitalen Selbstschutz Serie, wie ich meine
 4. Softwarehygiene betreiben 
 
 
-[IMG_4815.pdf](https://github.com/finn0701/finns-respository/files/7499761/IMG_4815.pdf)
+
 
 
 

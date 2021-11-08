@@ -27,10 +27,6 @@ Glücklicherweise weiß ich dank der digitalen Selbstschutz Serie, wie ich meine
 3. Öffentliche Hotspots meiden
 4. Softwarehygiene betreiben 
 
-
-
-
-
 ![Github Vorlage](https://user-images.githubusercontent.com/93934093/140809136-6650d5b9-e6b2-43d8-8859-8c0b6a3d3178.jpg)
 
 

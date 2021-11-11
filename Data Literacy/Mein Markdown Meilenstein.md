@@ -4,9 +4,17 @@ date: "11/8/2021"
 output: html_document
 ---
 
-# R Markdown lernen
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	message = FALSE,
+	warning = FALSE,
+	include = FALSE
+)
+```
+
+# R Markdown erlernen
 ## Meine Erfahrungen mit diesem Meilenstein
-Zu Beginn war es **sehr schwer** für mich, **R und R-Studios zu verstehen**. Ständig kam ich *durcheinander* und *verwechselte HTML* mit R. Nach einiger Zeit und genauem Studieren der Lernvideos und Buchkapitel, begann ich aber glückicherweise durchzusteigen.
+Zu Beginn war es **sehr schwer** für mich, **R und R-Studios zu verstehen**. Allein das Interface war für mich sehr verwirrend, weil es so *umfangreich* ist und einem so *viele Möglichkeiten* zur Verfügung stehen. Außerdem wusste ich anfangs nicht, welche "Packages" ich installieren sollte. Nach einiger Zeit und genauem Studieren der Lernvideos und Buchkapitel, begann ich aber glückicherweise  durchzusteigen. Das Einfügen des GitHub-Bilds hat mir gegen Ende Probleme bereitet, aber nach kurzer Recherche und einigen Versuchen hat auch das funktioniert. 
 
 
 ### Mein Datenmanifest 
@@ -16,7 +24,7 @@ Glücklicherweise weiß ich dank der digitalen Selbstschutz Serie, wie ich meine
 #### Wem gehören meine Daten?
 
 * mir
-* Verhaltensüberschusslieferanten"
+* "Verhaltensüberschusslieferanten"
 * Ökonomen/ Überwachungskapitalisten
 
 #### Wie kann ich meine Daten schützen?
@@ -27,10 +35,27 @@ Glücklicherweise weiß ich dank der digitalen Selbstschutz Serie, wie ich meine
 3. Öffentliche Hotspots meiden
 4. Softwarehygiene betreiben 
 
+##### Aufgabe: Wie lange muss ich arbeiten?
 
+```{r Wie lange muss ich bis zur Rente arbeiten?}
+geburt <- 2002 # bitte Geburtsjahr eingeben [YYYY eingeben]
+alter <- 2021 - geburt
+# wir berechnen Ihr Alter im Jahr 2020 (für das gesamte Jahr)
+alter
 
-![Github Vorlage](https://user-images.githubusercontent.com/93934093/141283973-3415d9ff-2c35-4367-842b-5907f8225f13.jpg)
+# Wir berechnen Ihr Rentenalter und gehen davon aus, dass Sie mit 69 in  Rente gehen können.
+rentenalter <- geburt + 69
+rentenalter
 
+# Wir gehen davon aus, dass Sie in drei Jahren anfangen werden zu arbeiten.
+arbeitsbeginn <- 2023
+arbeitsjahre <- rentenalter - arbeitsbeginn
 
+# Voila: wenn alles klappt, arbeiten Sie so lange.
+arbeitsjahre
 
+```
 
+###### Mein Bild aus Github
+
+!
